@@ -1,0 +1,150 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+#card{
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    margin: 21vh 70vh;
+    text-decoration: none;
+    height: 100%;
+    width: 60vh;
+
+}
+
+#btnn a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+#nav{
+    color: white;
+}
+
+.navbar-brand img{
+    border-radius: 20%;
+}
+
+.nav-link{
+    color: white;
+}
+
+section i{
+    align-items: center;
+}
+
+#example{
+ box-sizing: border-box;
+ border: 2px solid black;
+ background-size: cover;
+}
+#menu-tile {
+    background: url(./carnival-cafe-dhanbad-dhanbad-restaurants-gjes4mrzod.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#specials-tile {
+  background: url(./carnival-cafe-dhanbad-dhanbad-restaurants-dtjas5omes.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+  }
+
+.header{
+    text-align: center;
+    font-size:3rem;
+   
+}
+.header span{
+    color: red;
+    padding: 0px 20px;
+    
+}
+.checked {
+    color: rgba(255, 166, 0, 0.76);
+  }
+ #pricetag{
+     background-color:red;
+     float: right;
+     position: absolute; 
+     /* position: relative; */
+     animation-name: example;
+     animation-direction: inherit;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+ }
+
+ #work img {
+    height: 104px;
+    width: 44%;
+    border-radius: 73%;
+    display: flex;
+    justify-content:center;
+}
+#img{
+    background-color:red;
+}
+
+
+#card-img{
+    height: 100%;
+    width: 30%;
+    border-radius: 50%;
+    margin: 0px 110px;
+}
+
+#rating{
+    background-color:black;
+    color: white;
+    height: 100%;
+}
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: white;
+  }
+  #order{
+    background-image: url(./waitress-confessions-the-everygirl-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
+  @keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    /* 50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;} */
+  }
+
+  #ex{
+      box-sizing: border-box;
+      background-size: contain;
+  }
